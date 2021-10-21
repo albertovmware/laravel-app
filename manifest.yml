@@ -1,7 +1,6 @@
 ---
 applications:
 - name: laravel
-  memory: 500M
   buildpack: paketo-buildpacks/php
   env:
     APP_DEBUG: false
