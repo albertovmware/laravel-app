@@ -1,10 +1,9 @@
 ---
 applications:
 - name: laravel
-  memory: 100M
+  memory: 500M
   buildpack: paketo-buildpacks/php
   env:
     APP_DEBUG: false
-    CF_STAGING_TIMEOUT: 15
-    CF_STARTUP_TIMEOUT: 15
+
 
