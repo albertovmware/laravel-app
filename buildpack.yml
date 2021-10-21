@@ -1,0 +1,3 @@
+php:
+  webdirectory: public
+  webserver:  httpd 

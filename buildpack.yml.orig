@@ -1,0 +1,6 @@
+composer:
+  vendor_directory: vendor
+php:
+  # directory where web app code is stored
+  # default: htdocs
+  webdirectory: public
