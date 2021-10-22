@@ -1,7 +1,7 @@
 ---
 applications:
 - name: laravel
-  buildpack: paketo-buildpacks/php
+  buildpack: tanzu-buildpacks/php
   env:
     APP_DEBUG: false
 
